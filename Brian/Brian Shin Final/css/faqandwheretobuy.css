@@ -1,0 +1,215 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	background-color: #db3a3f;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* ----------------------------------------
+Menu Bar
+------------------------------------------- */
+nav {
+	position: fixed;
+	display: flex;
+	height: 80px;
+	padding: 8px 10px;
+	justify-content: space-around;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #1b1b19;
+	z-index: 100;
+}
+
+.hamburger {
+	display: none;
+}
+
+.logo {
+	width: 60px;
+}
+
+.menu {
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	padding: 20px 0px;
+	transition: all .3s ease-in-out;
+}
+
+.menu:hover {
+	opacity: 0.8;
+	background-color: #db3a3f;
+}
+
+.menu a {
+	display: inline-block;
+	font-weight: 600;
+	padding: 3px 20px;
+	border-bottom: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+/* ----------------------------------------
+FAQ Intro
+------------------------------------------- */
+.intro {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+
+.intro h1{
+	font-size: 70px;
+	color: #a4988a;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.intro p{
+	font-size: 25px;
+	color: white;
+	font-style: italic;
+}
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+.goto {
+	text-decoration:  none;
+	color: white;
+	text-align: center;
+}
+
+.buttonbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.buttontext {
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#recipe {
+	background-color: #b4914b;
+}
+
+#health {
+	background-color: #5b6230;
+}
+
+#wheretobuy {
+	background-color: #d46006;
+}
+
+.gotobutton {
+	width: 280px;
+	height: 50px;
+	transition: all .3s ease-in-out;
+	border: 2px solid #cab69b;
+	border-radius: 12.5px;
+}
+
+.gotobutton:hover {
+	opacity: 0.6;
+	background-color: #db3a3f;
+}
+
+
+/* ----------------------------------------
+FAQ
+------------------------------------------- */
+.faq {
+	padding: 0px 20px;
+	margin-top: 0 auto;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.question {
+	flex-basis: 22%;
+	display: block; 
+	margin: 10px 10px 30px 10px;
+	padding: 0px 25px;
+	border: 2px solid #cab69b;
+	border-radius: 8px;
+	height: 340px;
+	background-color: #cab69b;
+}
+
+.question h2 {
+	color: #db3a3f;
+	font-size: 22px;
+}
+
+.question p {
+	font-style: italic;
+	font-size: 16px;
+}
+
+.question li {
+	font-style: italic;
+}
+
+/* ----------------------------------------
+Where to buy
+------------------------------------------- */
+.where {
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.store {
+	flex-basis: 15%;
+	display: block; 
+	margin: 10px 10px 30px 10px;
+	border: 2px solid #cab69b;
+	border-radius: 8px;
+	background-color: #cab69b;
+}
+
+.whereimg {
+	display: block;
+	margin-top: 0 block;
+	width: 100%;
+	border: 2px solid #cab69b;
+	border-radius: 8px;
+}
+
+
+
